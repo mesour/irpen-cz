@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#order-info {
+    display: none;
+}
+
+img.img-shadow {
+    box-shadow: 4px 4px 5px 0px rgba(64,64,64,0.75);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(64,64,64,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(64,64,64,0.75);
+}
+.img-preview {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.h1, .h2, .h3, .h4, body, h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.main-raised {
+    margin-top: -250px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.9);
+    position: relative;
+    z-index: 3;
+}
+
+.main-text {
+    margin-top: 230px;
+    margin-left: 100px;
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.index-page .page-header, .presentation-page .page-header {
+    height: 90vh;
+    overflow: hidden;
+}
+.page-header, .page-header .page-header-image {
+    background-position: top 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page-header {
+    height: 55vw;
+    max-height: 800px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section {
+    padding: 70px 2rem 0 2rem;
+}
+
+.description {
+    color: #999;
+    padding-bottom: 30px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.price {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb),var(--bs-text-opacity))!important;
+    font-weight: bold;
+}
+
+@media (max-width: 1300px) {
+    .page-header {
+        height: 60vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .page-header {
+        height: 60vw;
+    }
+    .main-text {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .page-header {
+        height: 65vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .page-header {
+        height: 65vw;
+    }
+}
+
+@media (max-width: 980px) {
+    .page-header {
+        height: 70vw;
+    }
+    .main-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-text {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 780px) {
+    .page-header {
+        height: 75vw;
+    }
+    .main-text {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-text {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 650px) {
+    .page-header {
+        height: 80vw;
+    }
+    .main-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .page-header {
+        height: 90vw;
+    }
+    .main-text {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-text {
+        font-size: 1rem;
+        margin-top: 20px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 420px) {
+    .page-header {
+        height: 110vw;
+    }
+}
